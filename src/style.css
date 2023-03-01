@@ -1,0 +1,23 @@
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities; 
+ 
+@layer base { 
+	/* for elements */ 
+} 
+ 
+@layer components { 
+	/* for classes */ 
+} 
+ 
+@layer utilities { 
+	/* for text gradients, usage "text-gradient from-[color] to-[color]" */ 
+	.text-gradient { 
+		@apply inline-block bg-clip-text text-transparent; 
+	} 
+ 
+	/* vertical and horizontal centering */ 
+	.VHcenter { 
+		@apply items-center justify-center; 
+	} 
+} 
